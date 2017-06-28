@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	background: url(https://static.pexels.com/photos/335393/pexels-photo-335393.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: 'Dosis', sans-serif;
+}
+.searchEngine {
+	margin: 0 30px;
+	overflow-x:auto;
+}
+#search {
+	margin-right: 20px;
+	height: 40px;
+	border:1px solid white;
+	border-radius: 4px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-transform: uppercase;
+    background-color: #22140f;
+    color: white;
+    letter-spacing: 1px;
+    height: 40px;
+    cursor: pointer;
+}
+#country-name {
+	border: 1px solid #22140f;
+	border-radius: 4px;
+	height: 30px;
+}
+table {
+	background-color: rgba(34, 20, 15, 0.5);
+	margin-top: 30px;
+	padding: 30px;
+	border-radius: 5px;
+	border:1px solid white;
+}
+h1, td, tr {
+	color: white;
+}
+th, td {
+	
+	text-align: left;
+	width: 300px;
+}
